@@ -1,0 +1,46 @@
+pageInfo:
+  title: Dashy  apxnet.suhrke.net
+  description: Willkommen in apxnet.suhrke.net!
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+      target: newtab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: newtab
+  footerText: 'APXnet'
+sections:
+  - name: Server
+    icon: fas fa-server
+    items:
+      - title: APXpve
+        description: Proxmox pve
+        icon: icons/dashboard-icons/svg/proxmox.svg
+        url: https://apxpve.internal.suhrke.net
+        target: newtab
+        id: 0_631_pve
+           - title: pveala
+        description: Proxmox server pveala
+        icon: icons/dashboard-icons/svg/proxmox.svg
+        url: https://pveala.service.suhrke.net:8006
+        target: newtab
+        id: 3_631_pveala
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+ pages:
+  - name: Main
+    path: conf.yml
+    displayData:
+      hideForGuests: false
+  - name: APXNet
+    path: apxnet.yml
+    displayData:
+      hideForGuests: false
+  - name: Bookmarks
+    path: bookmarks.yml
+    displayData:
+      hideForGuests: false
