@@ -1,0 +1,31 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Dashy global suhrke.net
+  description: Dashy global
+  navLinks: []
+sections:
+  - name: Uhr & Wetter
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+pages:
+  - name: Main
+    path: conf.yml
+    displayData:
+      hideForGuests: false
+  - name: APXNet
+    path: public/apxnet.yml
+    displayData:
+      hideForGuests: false
+  - name: Bookmarks
+    path: bookmarks.yml
+    displayData:
+      hideForGuests: false
+  appConfig:
+  theme: colorful
+  layout: auto
+  iconSize: medium
